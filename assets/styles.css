@@ -937,6 +937,9 @@ video {
 .ml-1 {
   margin-left: 0.25rem;
 }
+.ml-3 {
+  margin-left: 0.75rem;
+}
 .ml-\[0\.08em\] {
   margin-left: 0.08em;
 }
@@ -2181,81 +2184,127 @@ body {
 .focus-within\:z-20:focus-within {
   z-index: 20;
 }
+@media (hover: hover) {
 .hover\:\!bg-white:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1)) !important;
 }
+}
+@media (hover: hover) {
 .hover\:bg-\[\#171717\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity, 1));
 }
+}
+@media (hover: hover) {
 .hover\:bg-accent:hover {
   background-color: hsl(var(--accent));
 }
+}
+@media (hover: hover) {
 .hover\:bg-destructive\/80:hover {
   background-color: hsl(var(--destructive) / 0.8);
 }
+}
+@media (hover: hover) {
 .hover\:bg-destructive\/90:hover {
   background-color: hsl(var(--destructive) / 0.9);
 }
+}
+@media (hover: hover) {
 .hover\:bg-muted:hover {
   background-color: hsl(var(--muted));
 }
+}
+@media (hover: hover) {
 .hover\:bg-muted\/50:hover {
   background-color: hsl(var(--muted) / 0.5);
 }
+}
+@media (hover: hover) {
 .hover\:bg-primary:hover {
   background-color: hsl(var(--primary));
 }
+}
+@media (hover: hover) {
 .hover\:bg-primary\/80:hover {
   background-color: hsl(var(--primary) / 0.8);
 }
+}
+@media (hover: hover) {
 .hover\:bg-primary\/90:hover {
   background-color: hsl(var(--primary) / 0.9);
 }
+}
+@media (hover: hover) {
 .hover\:bg-secondary:hover {
   background-color: hsl(var(--secondary));
 }
+}
+@media (hover: hover) {
 .hover\:bg-secondary\/80:hover {
   background-color: hsl(var(--secondary) / 0.8);
 }
+}
+@media (hover: hover) {
 .hover\:\!text-black:hover {
   --tw-text-opacity: 1 !important;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1)) !important;
 }
+}
+@media (hover: hover) {
 .hover\:\!text-\[\#171717\]:hover {
   --tw-text-opacity: 1 !important;
   color: rgb(23 23 23 / var(--tw-text-opacity, 1)) !important;
 }
+}
+@media (hover: hover) {
 .hover\:text-\[\#171717\]:hover {
   --tw-text-opacity: 1;
   color: rgb(23 23 23 / var(--tw-text-opacity, 1));
 }
+}
+@media (hover: hover) {
 .hover\:text-accent-foreground:hover {
   color: hsl(var(--accent-foreground));
 }
+}
+@media (hover: hover) {
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
+}
+@media (hover: hover) {
 .hover\:text-foreground:hover {
   color: hsl(var(--foreground));
 }
+}
+@media (hover: hover) {
 .hover\:text-muted-foreground:hover {
   color: hsl(var(--muted-foreground));
 }
+}
+@media (hover: hover) {
 .hover\:text-primary-foreground:hover {
   color: hsl(var(--primary-foreground));
 }
+}
+@media (hover: hover) {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
+}
+@media (hover: hover) {
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
+}
+@media (hover: hover) {
 .hover\:opacity-100:hover {
   opacity: 1;
+}
 }
 .focus\:bg-accent:focus {
   background-color: hsl(var(--accent));
@@ -2327,16 +2376,22 @@ body {
 .disabled\:opacity-50:disabled {
   opacity: 0.5;
 }
+@media (hover: hover) {
 .group:hover .group-hover\:-translate-x-1 {
   --tw-translate-x: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+}
+@media (hover: hover) {
 .group:hover .group-hover\:translate-y-0\.5 {
   --tw-translate-y: 0.125rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+}
+@media (hover: hover) {
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
+}
 }
 .group.destructive .group-\[\.destructive\]\:border-muted\/40 {
   border-color: hsl(var(--muted) / 0.4);
@@ -2371,18 +2426,26 @@ body {
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+@media (hover: hover) {
 .group.destructive .group-\[\.destructive\]\:hover\:border-destructive\/30:hover {
   border-color: hsl(var(--destructive) / 0.3);
 }
+}
+@media (hover: hover) {
 .group.destructive .group-\[\.destructive\]\:hover\:bg-destructive:hover {
   background-color: hsl(var(--destructive));
 }
+}
+@media (hover: hover) {
 .group.destructive .group-\[\.destructive\]\:hover\:text-destructive-foreground:hover {
   color: hsl(var(--destructive-foreground));
 }
+}
+@media (hover: hover) {
 .group.destructive .group-\[\.destructive\]\:hover\:text-red-50:hover {
   --tw-text-opacity: 1;
   color: rgb(254 242 242 / var(--tw-text-opacity, 1));
+}
 }
 .group.destructive .group-\[\.destructive\]\:focus\:ring-destructive:focus {
   --tw-ring-color: hsl(var(--destructive));
@@ -2750,8 +2813,10 @@ body {
   --tw-translate-x: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+@media (hover: hover) {
 .data-\[state\=open\]\:hover\:bg-accent:hover[data-state="open"] {
   background-color: hsl(var(--accent));
+}
 }
 .data-\[state\=open\]\:focus\:bg-accent:focus[data-state="open"] {
   background-color: hsl(var(--accent));
